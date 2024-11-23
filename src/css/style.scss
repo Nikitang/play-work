@@ -1,0 +1,131 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(11, 82, 64);
+    margin: 0;
+}
+
+.map {
+    height: 630px;
+    width: 980px;
+    background-image: url('../assets/images/bg-map.png');
+
+    &__menu {
+        position: absolute;
+        transform: translate(45%, -100%);
+        transition: 0.5s ease-in-out;
+        width: 525px;
+        height: 467px;
+        background-image: url('../assets/images/windowRate.png');
+        z-index: -1;
+
+        &.opened {
+            transform: translate(45%, 10%);
+            z-index: 1;
+        }
+
+        &-peoples {
+            &-close {
+                position: absolute;
+                top: 30px;
+                right: 25px;
+
+                &:hover {
+                    filter: brightness(1.2);
+                }
+            }
+
+            ul {
+                position: relative;
+                top: 155px;
+                left: 20px;
+                overflow-y: auto;
+                height: 230px;
+                li {
+                    list-style-type: none;
+                    width: 410px;
+                    margin-bottom: 3px;
+                }
+            }
+
+            .map__menu-people {
+                height: 30px;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+
+    &__items {
+        &-friends {
+            position: relative;
+            top: 550px;
+            right: 5px;
+            img {
+                width: 550px;
+                height: 80px;
+            }
+        }
+
+        &-chat {
+            position: relative;
+            top: 456px;
+            left: 542px;
+            background: none;
+            border: none;
+
+            img {
+                cursor: pointer;
+                &:hover {
+                    filter: brightness(1.2);
+                }
+            }
+        }
+
+        &-go {
+            position: relative;
+            top: 465px;
+            left: 525px;
+            background: none;
+            border: none;
+
+            img {
+                cursor: pointer;
+                &:hover {
+                    filter: brightness(1.2);
+                }
+            }
+        }
+
+        &-sms {
+            position: relative;
+            top: 369px;
+            left: 825px;
+            background: none;
+            border: none;
+
+            img {
+                cursor: pointer;
+                &:hover {
+                    filter: brightness(1.2);
+                }
+            }
+        }
+
+        &-rating {
+            position: relative;
+            top: 286px;
+            left: 900px;
+            background: none;
+            border: none;
+
+            img {
+                cursor: pointer;
+                &:hover {
+                    filter: brightness(1.2);
+                }
+            }
+        }
+    }
+}
