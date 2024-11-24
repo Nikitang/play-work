@@ -12,7 +12,6 @@ import rightArrow from './assets/images/arrow-r.png';
 import { toggleMenu, peopleInMenu } from './menu.js';
 import { generateFriendsList } from './friendsList.js';
 
-console.log('2');
 function app() {
     const chat = document.querySelector('.map__items-chat').querySelector('img');
     chat.src = chatLogo;
@@ -42,7 +41,6 @@ function app() {
     const watchedState = onChange(state, (path, value) => {
         if (path === 'isOpenMenu') {
             toggleMenu(value);
-            console.log(value);
         }
     });
 
@@ -68,8 +66,6 @@ function app() {
 
             anim.style.backgroundPosition = '0';
             anim.style.animation = 'play 0.8s steps(9) infinite, move 9s linear forwards';
-
-            console.log(left, top);
 
             setTimeout(() => {
                 anim.style.animation = 'move 9s linear forwards';
