@@ -17,7 +17,11 @@ export default (env) => {
             clean: true,
         },
         plugins: [
-            new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'public', 'index.html') }),
+            new HtmlWebpackPlugin({
+                title: 'Play-Work',
+                template: path.resolve(__dirname, 'public', 'index.html'),
+                favicon: path.resolve(__dirname, 'src', 'assets', 'images', 'favicon.png'),
+            }),
             new webpack.ProgressPlugin(),
             new MiniCssExtractPlugin(),
         ],
@@ -34,7 +38,7 @@ export default (env) => {
             ],
         },
         devServer: {
-            port: 5004,
+            port: 5001,
             open: true,
         },
     };
