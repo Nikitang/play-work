@@ -31,6 +31,7 @@ body {
                 position: absolute;
                 top: 30px;
                 right: 25px;
+                cursor: pointer;
 
                 &:hover {
                     filter: brightness(1.2);
@@ -41,18 +42,77 @@ body {
                 position: relative;
                 top: 155px;
                 left: 20px;
-                overflow-y: auto;
+                overflow-y: scroll;
                 height: 230px;
                 li {
                     list-style-type: none;
                     width: 410px;
                     margin-bottom: 3px;
                 }
+
+                &::-webkit-scrollbar {
+                    width: 0;
+                    background: transparent;
+                }
+                scrollbar-width: none;
             }
 
             .map__menu-people {
                 height: 30px;
                 background-repeat: no-repeat;
+                display: flex;
+                justify-content: space-between;
+
+                &-place {
+                    position: relative;
+                    top: 7px;
+                    left: 30px;
+                    width: 30px;
+                    span {
+                        font-family: Ubuntu, sans-serif;
+                        font-size: 16px;
+                        color: #ffffff;
+                    }
+                }
+
+                &-person {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 40px;
+                    &-icon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 30px;
+                        height: 30px;
+                        background-repeat: no-repeat;
+                        img {
+                            margin: 2px 0 0 1px;
+                            width: 80%;
+                            height: 80%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    &-name {
+                        width: 150px;
+                        margin-left: 10px;
+                        font-family: Ubuntu, sans-serif;
+                        font-size: 14px;
+                        color: #ffffff;
+                    }
+                }
+                &-points {
+                    width: 50px;
+                    margin: 7px 30px 0 0;
+                    span {
+                        font-family: Ubuntu;
+                        color: #ffffff;
+                        width: 50px;
+                        text-align: center;
+                    }
+                }
             }
         }
     }
@@ -62,9 +122,59 @@ body {
             position: relative;
             top: 550px;
             right: 5px;
-            img {
-                width: 550px;
+            display: flex;
+
+            width: 550px;
+            height: 80px;
+            background-image: url('../assets/images/2222.png');
+            background-repeat: no-repeat;
+
+            &-left-btn {
+                position: relative;
+                top: 16px;
+                left: 17px;
+                background: none;
+                height: 40px;
+                border: none;
+                cursor: pointer;
+                &:hover {
+                    filter: brightness(1.2);
+                }
+            }
+
+            &-list {
+                width: 485px;
                 height: 80px;
+
+                overflow-x: scroll;
+                overflow: hidden;
+                white-space: nowrap;
+                margin: 6px 0 0 17px;
+                &-item {
+                    display: inline-block;
+                    height: 55px;
+                    width: 60px;
+                    background-repeat: no-repeat;
+
+                    &-icon {
+                        margin: 5px 0 0 6px;
+                        width: 44px;
+                        height: 44px;
+                    }
+                }
+            }
+
+            &-right-btn {
+                position: relative;
+                right: 3px;
+                bottom: 5px;
+                background: none;
+                border: navajowhite;
+
+                cursor: pointer;
+                &:hover {
+                    filter: brightness(1.2);
+                }
             }
         }
 
@@ -125,6 +235,67 @@ body {
                 &:hover {
                     filter: brightness(1.2);
                 }
+            }
+        }
+    }
+
+    &__sprite-container {
+        position: absolute;
+        top: 0;
+        width: 90px;
+        height: 90px;
+        &-img {
+            position: relative;
+            top: 452px;
+            left: 412px;
+            height: 60px;
+            width: 50px;
+            background-image: url('../assets/images/sprite-cut.png');
+
+            transition: 0.1s;
+        }
+
+        @keyframes play {
+            0% {
+                background-position: 0;
+            }
+            100% {
+                background-position: -575px;
+            }
+        }
+
+        @keyframes move {
+            0% {
+                top: 452px;
+                left: 412px;
+            }
+            10% {
+                top: 410px;
+                left: 360px;
+            }
+            20% {
+                top: 440px;
+                left: 300px;
+            }
+            40% {
+                top: 480px;
+                left: 220px;
+            }
+            60% {
+                top: 490px;
+                left: 150px;
+            }
+            80% {
+                top: 460px;
+                left: 100px;
+            }
+            90% {
+                top: 435px;
+                left: 55px;
+            }
+            100% {
+                top: 390px;
+                left: 90px;
             }
         }
     }
