@@ -30,6 +30,26 @@ eval("module.exports = __webpack_require__.p + \"36e635f067bed5dab44a.png\";\n\n
 
 /***/ }),
 
+/***/ "./src/assets/images/arrow-l.png":
+/*!***************************************!*\
+  !*** ./src/assets/images/arrow-l.png ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"311fec17edfd637f7f1e.png\";\n\n//# sourceURL=webpack://test/./src/assets/images/arrow-l.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/arrow-r.png":
+/*!***************************************!*\
+  !*** ./src/assets/images/arrow-r.png ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9e0b5d63690af083c0b4.png\";\n\n//# sourceURL=webpack://test/./src/assets/images/arrow-r.png?");
+
+/***/ }),
+
 /***/ "./src/assets/images/chat.png":
 /*!************************************!*\
   !*** ./src/assets/images/chat.png ***!
@@ -60,6 +80,26 @@ eval("module.exports = __webpack_require__.p + \"396676a1e0b1b341d76e.png\";\n\n
 
 /***/ }),
 
+/***/ "./src/assets/images/man.png":
+/*!***********************************!*\
+  !*** ./src/assets/images/man.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"bfd80d93c3b77f65c957.png\";\n\n//# sourceURL=webpack://test/./src/assets/images/man.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/people-bg.png":
+/*!*****************************************!*\
+  !*** ./src/assets/images/people-bg.png ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b6c591bde4aca9ab39da.png\";\n\n//# sourceURL=webpack://test/./src/assets/images/people-bg.png?");
+
+/***/ }),
+
 /***/ "./src/assets/images/rate-one.png":
 /*!****************************************!*\
   !*** ./src/assets/images/rate-one.png ***!
@@ -80,6 +120,16 @@ eval("module.exports = __webpack_require__.p + \"0ab8771398f63caaa058.png\";\n\n
 
 /***/ }),
 
+/***/ "./src/assets/images/small-bg.png":
+/*!****************************************!*\
+  !*** ./src/assets/images/small-bg.png ***!
+  \****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c9c1c5d3cd1815ba3de0.png\";\n\n//# sourceURL=webpack://test/./src/assets/images/small-bg.png?");
+
+/***/ }),
+
 /***/ "./src/assets/images/sms.png":
 /*!***********************************!*\
   !*** ./src/assets/images/sms.png ***!
@@ -87,6 +137,16 @@ eval("module.exports = __webpack_require__.p + \"0ab8771398f63caaa058.png\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"1fa160c3bdf629191a62.png\";\n\n//# sourceURL=webpack://test/./src/assets/images/sms.png?");
+
+/***/ }),
+
+/***/ "./src/assets/images/woman.png":
+/*!*************************************!*\
+  !*** ./src/assets/images/woman.png ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f40b72cfb4c8e3732b3e.png\";\n\n//# sourceURL=webpack://test/./src/assets/images/woman.png?");
 
 /***/ }),
 
@@ -366,7 +426,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var on_change__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! on-change */ \"./node_modules/on-change/index.js\");\n/* harmony import */ var _assets_images_2222_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/images/2222.png */ \"./src/assets/images/2222.png\");\n/* harmony import */ var _assets_images_chat_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/chat.png */ \"./src/assets/images/chat.png\");\n/* harmony import */ var _assets_images_inuni_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/inuni.png */ \"./src/assets/images/inuni.png\");\n/* harmony import */ var _assets_images_sms_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/sms.png */ \"./src/assets/images/sms.png\");\n/* harmony import */ var _assets_images_rate_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/rate.png */ \"./src/assets/images/rate.png\");\n/* harmony import */ var _assets_images_close_btn_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/close-btn.png */ \"./src/assets/images/close-btn.png\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n\n\n\n\n\n\n\n\n\n\n\nconsole.log('2');\nfunction app() {\n    const bgFr = document.querySelector('.map__items-friends').querySelector('img');\n    bgFr.src = _assets_images_2222_png__WEBPACK_IMPORTED_MODULE_0__;\n\n    const chat = document.querySelector('.map__items-chat').querySelector('img');\n    chat.src = _assets_images_chat_png__WEBPACK_IMPORTED_MODULE_1__;\n\n    const uni = document.querySelector('.map__items-go').querySelector('img');\n    uni.src = _assets_images_inuni_png__WEBPACK_IMPORTED_MODULE_2__;\n\n    const sms = document.querySelector('.map__items-sms').querySelector('img');\n    sms.src = _assets_images_sms_png__WEBPACK_IMPORTED_MODULE_3__;\n\n    const rate = document.querySelector('.map__items-rating').querySelector('img');\n    rate.src = _assets_images_rate_png__WEBPACK_IMPORTED_MODULE_4__;\n\n    const closer = document.querySelector('.map__menu-peoples-close');\n    closer.src = _assets_images_close_btn_png__WEBPACK_IMPORTED_MODULE_5__;\n\n    const state = {\n        isOpenMenu: false,\n    };\n\n    const watchedState = (0,on_change__WEBPACK_IMPORTED_MODULE_7__[\"default\"])(state, (path, value) => {\n        if (path === 'isOpenMenu') {\n            (0,_menu_js__WEBPACK_IMPORTED_MODULE_6__.toggleMenu)(value);\n            console.log(value);\n        }\n    });\n\n    document\n        .querySelector('.map__items-rating')\n        .addEventListener('click', () => (watchedState.isOpenMenu = !watchedState.isOpenMenu));\n\n    closer.addEventListener('click', () => (watchedState.isOpenMenu = false));\n    (0,_menu_js__WEBPACK_IMPORTED_MODULE_6__.peopleInMenu)();\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);\n\n\n//# sourceURL=webpack://test/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var on_change__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! on-change */ \"./node_modules/on-change/index.js\");\n/* harmony import */ var _assets_images_2222_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/images/2222.png */ \"./src/assets/images/2222.png\");\n/* harmony import */ var _assets_images_chat_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/chat.png */ \"./src/assets/images/chat.png\");\n/* harmony import */ var _assets_images_inuni_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/inuni.png */ \"./src/assets/images/inuni.png\");\n/* harmony import */ var _assets_images_sms_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/sms.png */ \"./src/assets/images/sms.png\");\n/* harmony import */ var _assets_images_rate_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/rate.png */ \"./src/assets/images/rate.png\");\n/* harmony import */ var _assets_images_close_btn_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/close-btn.png */ \"./src/assets/images/close-btn.png\");\n/* harmony import */ var _assets_images_arrow_l_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/images/arrow-l.png */ \"./src/assets/images/arrow-l.png\");\n/* harmony import */ var _assets_images_arrow_r_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/arrow-r.png */ \"./src/assets/images/arrow-r.png\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _friendsList_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./friendsList.js */ \"./src/friendsList.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconsole.log('2');\nfunction app() {\n    const chat = document.querySelector('.map__items-chat').querySelector('img');\n    chat.src = _assets_images_chat_png__WEBPACK_IMPORTED_MODULE_1__;\n\n    const uni = document.querySelector('.map__items-go').querySelector('img');\n    uni.src = _assets_images_inuni_png__WEBPACK_IMPORTED_MODULE_2__;\n\n    const sms = document.querySelector('.map__items-sms').querySelector('img');\n    sms.src = _assets_images_sms_png__WEBPACK_IMPORTED_MODULE_3__;\n\n    const rate = document.querySelector('.map__items-rating').querySelector('img');\n    rate.src = _assets_images_rate_png__WEBPACK_IMPORTED_MODULE_4__;\n\n    const closer = document.querySelector('.map__menu-peoples-close');\n    closer.src = _assets_images_close_btn_png__WEBPACK_IMPORTED_MODULE_5__;\n\n    const leftArrowImg = document.querySelector('.map__items-friends-left-btn img');\n    leftArrowImg.src = _assets_images_arrow_l_png__WEBPACK_IMPORTED_MODULE_6__;\n\n    const rightArrowImg = document.querySelector('.map__items-friends-right-btn img');\n    rightArrowImg.src = _assets_images_arrow_r_png__WEBPACK_IMPORTED_MODULE_7__;\n\n    const state = {\n        isOpenMenu: false,\n    };\n\n    const watchedState = (0,on_change__WEBPACK_IMPORTED_MODULE_10__[\"default\"])(state, (path, value) => {\n        if (path === 'isOpenMenu') {\n            (0,_menu_js__WEBPACK_IMPORTED_MODULE_8__.toggleMenu)(value);\n            console.log(value);\n        }\n    });\n\n    document\n        .querySelector('.map__items-rating')\n        .addEventListener('click', () => (watchedState.isOpenMenu = !watchedState.isOpenMenu));\n\n    closer.addEventListener('click', () => (watchedState.isOpenMenu = false));\n\n    const startBtn = document.querySelector('.map__items-go');\n    const anim = document.querySelector('.map__sprite-container-img');\n\n    startBtn.addEventListener('click', () => {\n        const style = window.getComputedStyle(anim);\n        const top = parseFloat(style.top);\n        const left = parseFloat(style.left);\n        if (top === 390 && left === 90) {\n            return;\n        } else {\n            anim.style.animation = '';\n\n            anim.style.animation = 'move 9s linear forwards';\n\n            anim.style.backgroundPosition = '0';\n            anim.style.animation = 'play 0.8s steps(9) infinite, move 9s linear forwards';\n\n            console.log(left, top);\n\n            setTimeout(() => {\n                anim.style.animation = 'move 9s linear forwards';\n            }, 8900);\n        }\n    });\n    (0,_menu_js__WEBPACK_IMPORTED_MODULE_8__.peopleInMenu)();\n    (0,_friendsList_js__WEBPACK_IMPORTED_MODULE_9__.generateFriendsList)();\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);\n\n\n//# sourceURL=webpack://test/./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/assets/data/friends.js":
+/*!************************************!*\
+  !*** ./src/assets/data/friends.js ***!
+  \************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst friends = [\n    {\n        id: '9',\n        name: 'Владимир',\n        lastName: 'Сергеев',\n        img: 'male',\n    },\n    {\n        id: '4',\n        name: 'Эрик',\n        lastName: 'Аксёнов',\n        img: 'male',\n    },\n    {\n        id: '15411',\n        name: 'Ирина',\n        lastName: 'Чеснокова',\n        img: 'female',\n    },\n    {\n        id: '15564',\n        name: 'Дарина',\n        lastName: 'Ляхина',\n        img: 'female',\n    },\n    {\n        id: '52',\n        name: 'Владимир',\n        lastName: 'Грачёв',\n        img: 'male',\n    },\n    {\n        id: '42',\n        name: 'Эрик',\n        lastName: 'Фролов',\n        img: 'male',\n    },\n    {\n        id: '15',\n        name: 'Ирина',\n        lastName: 'Петрова',\n        img: 'female',\n    },\n    {\n        id: '191',\n        name: 'Дарина',\n        lastName: 'Нифёдова',\n        img: 'female',\n    },\n    {\n        id: '927',\n        name: 'Владимир',\n        lastName: 'Крапов',\n        img: 'male',\n    },\n    {\n        id: '83',\n        name: 'Эрик',\n        lastName: 'Иванов',\n        img: 'male',\n    },\n    {\n        id: '44',\n        name: 'Ирина',\n        lastName: 'Алексина',\n        img: 'female',\n    },\n    {\n        id: '66',\n        name: 'Дарина',\n        lastName: 'Боброва',\n        img: 'female',\n    },\n];\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (friends);\n\n\n//# sourceURL=webpack://test/./src/assets/data/friends.js?");
 
 /***/ }),
 
@@ -376,7 +446,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst rating = [\n    {\n        id: '123',\n        name: 'Владимир',\n        lastName: 'Ларионов',\n        img: './male.png',\n        points: '463',\n    },\n    {\n        id: '9',\n        name: 'Владимир',\n        lastName: 'Сергеев',\n        img: './male.png',\n        points: '521',\n    },\n    {\n        id: '231',\n        name: 'Вениамин',\n        lastName: 'Васильев',\n        img: './male.png',\n        points: '865',\n    },\n    {\n        id: '321',\n        name: 'Мария',\n        lastName: 'Логинова',\n        img: './female.png',\n        points: '865',\n    },\n    {\n        id: '492',\n        name: 'Борис',\n        lastName: 'Казанцев',\n        img: './male.png',\n        points: '784',\n    },\n    {\n        id: '452',\n        name: 'Полина',\n        lastName: 'Калинина',\n        img: './female.png',\n        points: '225',\n    },\n    {\n        id: '796',\n        name: 'Даниил',\n        lastName: 'Воробьёв',\n        img: './male.png',\n        points: '642',\n    },\n    {\n        id: '4',\n        name: 'Эрик',\n        lastName: 'Аксёнов',\n        img: './male.png',\n        points: '150',\n    },\n    {\n        id: '1155',\n        name: 'Иван',\n        lastName: 'Иванов',\n        img: './male.png',\n        points: '100',\n    },\n    {\n        id: '12145',\n        name: 'Артем',\n        lastName: 'Алексеев',\n        img: './male.png',\n        points: '1000',\n    },\n];\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (rating);\n\n\n//# sourceURL=webpack://test/./src/assets/data/rating.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst rating = [\n    {\n        id: '123',\n        name: 'Владимир',\n        lastName: 'Ларионов',\n        img: 'male',\n        points: '463',\n    },\n    {\n        id: '9',\n        name: 'Владимир',\n        lastName: 'Сергеев',\n        img: 'male',\n        points: '521',\n    },\n    {\n        id: '231',\n        name: 'Вениамин',\n        lastName: 'Васильев',\n        img: 'male',\n        points: '865',\n    },\n    {\n        id: '321',\n        name: 'Мария',\n        lastName: 'Логинова',\n        img: 'female',\n        points: '865',\n    },\n    {\n        id: '492',\n        name: 'Борис',\n        lastName: 'Казанцев',\n        img: 'male',\n        points: '784',\n    },\n    {\n        id: '452',\n        name: 'Полина',\n        lastName: 'Калинина',\n        img: 'female',\n        points: '225',\n    },\n    {\n        id: '796',\n        name: 'Даниил',\n        lastName: 'Воробьёв',\n        img: 'male',\n        points: '642',\n    },\n    {\n        id: '4',\n        name: 'Эрик',\n        lastName: 'Аксёнов',\n        img: 'male',\n        points: '150',\n    },\n    {\n        id: '1155',\n        name: 'Иван',\n        lastName: 'Иванов',\n        img: 'male',\n        points: '100',\n    },\n    {\n        id: '12145',\n        name: 'Артем',\n        lastName: 'Алексеев',\n        img: 'male',\n        points: '1000',\n    },\n];\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (rating);\n\n\n//# sourceURL=webpack://test/./src/assets/data/rating.js?");
+
+/***/ }),
+
+/***/ "./src/friendsList.js":
+/*!****************************!*\
+  !*** ./src/friendsList.js ***!
+  \****************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   generateFriendsList: () => (/* binding */ generateFriendsList)\n/* harmony export */ });\n/* harmony import */ var _assets_images_people_bg_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/images/people-bg.png */ \"./src/assets/images/people-bg.png\");\n/* harmony import */ var _assets_images_man_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/man.png */ \"./src/assets/images/man.png\");\n/* harmony import */ var _assets_images_woman_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/woman.png */ \"./src/assets/images/woman.png\");\n/* harmony import */ var _assets_data_friends_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/data/friends.js */ \"./src/assets/data/friends.js\");\n\n\n\n\n\n\nconst generateFriendsList = () => {\n    const friendsList = document.querySelector('.map__items-friends-list');\n\n    _assets_data_friends_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"].forEach((person) => {\n        const div = document.createElement('div');\n        div.classList.add('map__items-friends-list-item');\n        div.style.backgroundImage = `url(${_assets_images_people_bg_png__WEBPACK_IMPORTED_MODULE_0__})`;\n        const divIcon = document.createElement('img');\n        divIcon.classList.add('map__items-friends-list-item-icon');\n        divIcon.src = person.img === 'male' ? _assets_images_man_png__WEBPACK_IMPORTED_MODULE_1__ : _assets_images_woman_png__WEBPACK_IMPORTED_MODULE_2__;\n        div.appendChild(divIcon);\n        friendsList.appendChild(div);\n    });\n\n    const leftArrow = document.querySelector('.map__items-friends-left-btn');\n    const rightArrow = document.querySelector('.map__items-friends-right-btn');\n    const scrollAmount = 60;\n\n    leftArrow.addEventListener('click', () => {\n        friendsList.scrollBy({\n            left: -scrollAmount,\n            behavior: 'smooth',\n        });\n    });\n\n    rightArrow.addEventListener('click', () => {\n        friendsList.scrollBy({\n            left: scrollAmount,\n            behavior: 'smooth',\n        });\n    });\n};\n\n\n//# sourceURL=webpack://test/./src/friendsList.js?");
 
 /***/ }),
 
@@ -396,7 +476,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
   \*********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   peopleInMenu: () => (/* binding */ peopleInMenu),\n/* harmony export */   toggleMenu: () => (/* binding */ toggleMenu)\n/* harmony export */ });\n/* harmony import */ var _assets_data_rating_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/data/rating.js */ \"./src/assets/data/rating.js\");\n/* harmony import */ var _assets_images_rate_one_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/rate-one.png */ \"./src/assets/images/rate-one.png\");\n\n\n\nconst menuBtn = document.querySelector('.map__items-rating');\n\nconst toggleMenu = (init = false) => {\n    const menu = document.querySelector('.map__menu');\n\n    if (init) {\n        menu.classList.add('opened');\n    } else {\n        menu.classList.remove('opened');\n    }\n};\n\nconst peopleInMenu = () => {\n    const menuList = document.querySelector('.map__menu-peoples');\n    const ul = document.createElement('ul');\n    _assets_data_rating_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].forEach((person) => {\n        const li = document.createElement('li');\n        const div = document.createElement('div');\n        div.classList.add('map__menu-people');\n        div.style.backgroundImage = `url(${_assets_images_rate_one_png__WEBPACK_IMPORTED_MODULE_1__})`;\n        li.appendChild(div);\n        ul.appendChild(li);\n    });\n    menuList.appendChild(ul);\n};\n\n\n//# sourceURL=webpack://test/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   peopleInMenu: () => (/* binding */ peopleInMenu),\n/* harmony export */   toggleMenu: () => (/* binding */ toggleMenu)\n/* harmony export */ });\n/* harmony import */ var _utils_sorting_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils/sorting.js */ \"./src/utils/sorting.js\");\n/* harmony import */ var _assets_data_friends_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/data/friends.js */ \"./src/assets/data/friends.js\");\n/* harmony import */ var _assets_images_rate_one_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/rate-one.png */ \"./src/assets/images/rate-one.png\");\n/* harmony import */ var _assets_images_small_bg_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/small-bg.png */ \"./src/assets/images/small-bg.png\");\n/* harmony import */ var _assets_images_man_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/man.png */ \"./src/assets/images/man.png\");\n/* harmony import */ var _assets_images_woman_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/woman.png */ \"./src/assets/images/woman.png\");\n\n\n\n\n\n\n\nconst menuBtn = document.querySelector('.map__items-rating');\n\nconst toggleMenu = (init = false) => {\n    const menu = document.querySelector('.map__menu');\n\n    if (init) {\n        menu.classList.add('opened');\n    } else {\n        menu.classList.remove('opened');\n    }\n};\n\nconst peopleInMenu = () => {\n    const fill = _utils_sorting_js__WEBPACK_IMPORTED_MODULE_0__.sortingRate.filter((item) => _assets_data_friends_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"].map((i) => i.id).includes(item.id));\n\n    const menuList = document.querySelector('.map__menu-peoples');\n    const ul = document.createElement('ul');\n    _utils_sorting_js__WEBPACK_IMPORTED_MODULE_0__.sortingRate.forEach((person, index) => {\n        const li = document.createElement('li');\n        const div = document.createElement('div');\n        div.classList.add('map__menu-people');\n        div.style.backgroundImage = `url(${_assets_images_rate_one_png__WEBPACK_IMPORTED_MODULE_2__})`;\n\n        const divPlace = document.createElement('div');\n        divPlace.classList.add('map__menu-people-place');\n        const divPlaceSpan = document.createElement('span');\n        divPlaceSpan.textContent = `${index + 1}`;\n        divPlace.appendChild(divPlaceSpan);\n\n        const divPerson = document.createElement('div');\n        divPerson.classList.add('map__menu-people-person');\n        const divPersonIcon = document.createElement('div');\n        divPersonIcon.classList.add('map__menu-people-person-icon');\n        divPersonIcon.style.backgroundImage = `url(${_assets_images_small_bg_png__WEBPACK_IMPORTED_MODULE_3__})`;\n        const img = document.createElement('img');\n        img.src = person.img === 'male' ? _assets_images_man_png__WEBPACK_IMPORTED_MODULE_4__ : _assets_images_woman_png__WEBPACK_IMPORTED_MODULE_5__;\n        divPersonIcon.appendChild(img);\n        const divPersonName = document.createElement('div');\n        divPersonName.classList.add('map__menu-people-person-name');\n        const divPersonNameSpan = document.createElement('span');\n        fill.forEach((friend) =>\n            friend.id === person.id ? (divPersonNameSpan.style.color = 'green') : null\n        );\n        divPersonNameSpan.textContent = `${person.name} ${person.lastName}`;\n        divPersonName.appendChild(divPersonNameSpan);\n        divPerson.appendChild(divPersonIcon);\n        divPerson.appendChild(divPersonName);\n\n        const divPoints = document.createElement('div');\n        divPoints.classList.add('map__menu-people-points');\n        const divPointsSpan = document.createElement('span');\n        divPointsSpan.textContent = `${person.points}`;\n        divPoints.appendChild(divPointsSpan);\n\n        div.appendChild(divPlace);\n\n        div.appendChild(divPerson);\n\n        div.appendChild(divPoints);\n\n        li.appendChild(div);\n        ul.appendChild(li);\n    });\n    menuList.appendChild(ul);\n};\n\n\n//# sourceURL=webpack://test/./src/menu.js?");
+
+/***/ }),
+
+/***/ "./src/utils/sorting.js":
+/*!******************************!*\
+  !*** ./src/utils/sorting.js ***!
+  \******************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   sortingRate: () => (/* binding */ sortingRate)\n/* harmony export */ });\n/* harmony import */ var _assets_data_rating_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/data/rating.js */ \"./src/assets/data/rating.js\");\n\n\nconst sortingRate = _assets_data_rating_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].sort((a, b) => b.points - a.points);\n\n\n//# sourceURL=webpack://test/./src/utils/sorting.js?");
 
 /***/ })
 

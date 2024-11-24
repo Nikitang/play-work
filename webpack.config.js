@@ -12,7 +12,7 @@ export default (env) => {
         mode: env.mode ?? 'development',
         entry: path.resolve(__dirname, 'src', 'index.js'),
         output: {
-            path: path.resolve(__dirname, 'dist'),
+            path: path.resolve(__dirname, 'build'),
             filename: 'bundle.js',
             clean: true,
         },

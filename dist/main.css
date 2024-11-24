@@ -6,6 +6,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
+  background-color: rgb(11, 82, 64);
   margin: 0;
 }
 
@@ -31,6 +32,7 @@ body {
   position: absolute;
   top: 30px;
   right: 25px;
+  cursor: pointer;
 }
 .map__menu-peoples-close:hover {
   filter: brightness(1.2);
@@ -39,26 +41,124 @@ body {
   position: relative;
   top: 155px;
   left: 20px;
-  overflow-y: auto;
+  overflow-y: scroll;
   height: 230px;
+  scrollbar-width: none;
 }
 .map__menu-peoples ul li {
   list-style-type: none;
   width: 410px;
   margin-bottom: 3px;
 }
+.map__menu-peoples ul::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
 .map__menu-peoples .map__menu-people {
   height: 30px;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+}
+.map__menu-peoples .map__menu-people-place {
+  position: relative;
+  top: 7px;
+  left: 30px;
+  width: 30px;
+}
+.map__menu-peoples .map__menu-people-place span {
+  font-family: Ubuntu, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+.map__menu-peoples .map__menu-people-person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+.map__menu-peoples .map__menu-people-person-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+.map__menu-peoples .map__menu-people-person-icon img {
+  margin: 2px 0 0 1px;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+.map__menu-peoples .map__menu-people-person-name {
+  width: 150px;
+  margin-left: 10px;
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+.map__menu-peoples .map__menu-people-points {
+  width: 50px;
+  margin: 7px 30px 0 0;
+}
+.map__menu-peoples .map__menu-people-points span {
+  font-family: Ubuntu;
+  color: #ffffff;
+  width: 50px;
+  text-align: center;
 }
 .map__items-friends {
   position: relative;
   top: 550px;
   right: 5px;
-}
-.map__items-friends img {
+  display: flex;
   width: 550px;
   height: 80px;
+  background-image: url(36e635f067bed5dab44a.png);
+  background-repeat: no-repeat;
+}
+.map__items-friends-left-btn {
+  position: relative;
+  top: 16px;
+  left: 17px;
+  background: none;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+.map__items-friends-left-btn:hover {
+  filter: brightness(1.2);
+}
+.map__items-friends-list {
+  width: 485px;
+  height: 80px;
+  overflow-x: scroll;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 6px 0 0 17px;
+}
+.map__items-friends-list-item {
+  display: inline-block;
+  height: 55px;
+  width: 60px;
+  background-repeat: no-repeat;
+}
+.map__items-friends-list-item-icon {
+  margin: 5px 0 0 6px;
+  width: 44px;
+  height: 44px;
+}
+.map__items-friends-right-btn {
+  position: relative;
+  right: 3px;
+  bottom: 5px;
+  background: none;
+  border: navajowhite;
+  cursor: pointer;
+}
+.map__items-friends-right-btn:hover {
+  filter: brightness(1.2);
 }
 .map__items-chat {
   position: relative;
@@ -111,4 +211,61 @@ body {
 }
 .map__items-rating img:hover {
   filter: brightness(1.2);
+}
+.map__sprite-container {
+  position: absolute;
+  top: 0;
+  width: 90px;
+  height: 90px;
+}
+.map__sprite-container-img {
+  position: relative;
+  top: 452px;
+  left: 412px;
+  height: 60px;
+  width: 50px;
+  background-image: url(6bd57ab6c77008a51f2b.png);
+  transition: 0.1s;
+}
+@keyframes play {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: -575px;
+  }
+}
+@keyframes move {
+  0% {
+    top: 452px;
+    left: 412px;
+  }
+  10% {
+    top: 410px;
+    left: 360px;
+  }
+  20% {
+    top: 440px;
+    left: 300px;
+  }
+  40% {
+    top: 480px;
+    left: 220px;
+  }
+  60% {
+    top: 490px;
+    left: 150px;
+  }
+  80% {
+    top: 460px;
+    left: 100px;
+  }
+  90% {
+    top: 435px;
+    left: 55px;
+  }
+  100% {
+    top: 390px;
+    left: 90px;
+  }
 }
